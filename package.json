@@ -1,0 +1,51 @@
+{
+  "name": "providentdeleniti",
+  "version": "1.0.0",
+  "description": "Instances of classes which are directly callable as functions.",
+  "keywords": [
+    "hic",
+    "class",
+    "non",
+    "instance",
+    "numquam",
+    "types",
+    "et",
+    "object",
+    "iure",
+    "sed"
+  ],
+  "homepage": "https://github.com/EarlineFeest/providentdeleniti.git",
+  "bugs": {
+    "url": "https://github.com/EarlineFeest/providentdeleniti.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EarlineFeest/providentdeleniti.git"
+  },
+  "license": "MIT",
+  "author": "JedidiahJakubowski",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.esm.mjs"
+    },
+    "./package.json": "./package.json",
+    "./src/*": "./src/*"
+  },
+  "main": "dist/index.cjs",
+  "unpkg": "dist/index.umd.production.min.cjs",
+  "module": "dist/index.esm.mjs",
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@bluelovers/tsconfig": "^1.0.35",
+    "@types/jest": "^29.5.12"
+  },
+  "packageManager": "yarn@1.22.19"
+}
